@@ -1,9 +1,9 @@
 import React from 'react'
+import Layout from '../Components/Layout/Layout'
 
 const ResultsPage = () => {
   return (
-    <div>ResultsPage</div>
-  )
+    <Layout>Results</Layout>)
 }
 
 export default ResultsPage
