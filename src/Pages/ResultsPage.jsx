@@ -1,9 +1,13 @@
-import React from 'react'
-import Layout from '../Components/Layout/Layout'
+import React from "react";
+import Layout from "../Components/Layout/Layout";
+import ProfileCard from "../Components/ProfileCard/ProfileCard";
 
 const ResultsPage = () => {
   return (
-    <Layout>Results</Layout>)
-}
+    <Layout>
+      <ProfileCard />
+    </Layout>
+  );
+};
 
-export default ResultsPage
+export default ResultsPage;
