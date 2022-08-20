@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="search" element={<ResultsPage />} />
-        <Route path="profile" element={<ProfilePage />} />
+        <Route path="/search" element={<ResultsPage />} />
+        <Route path="/profile" element={<ProfilePage />} />
       </Routes>
     </div>
   );
