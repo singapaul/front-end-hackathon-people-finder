@@ -1,0 +1,39 @@
+.engagementCard {
+margin: 30px;
+  border: solid 2px black;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+
+
+  .engagementCard__title{font-size: 16px;}
+
+  .engagementCard__heading{
+    font-size: 36px;
+  }
+
+  .engagementCard__attributes{
+    display: inline-flex;
+    
+  }
+
+  .engagementCard__listItem{
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px
+  }
+
+
+  .engagementCard__text{
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
+  .engagementCard__packages{
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+}
