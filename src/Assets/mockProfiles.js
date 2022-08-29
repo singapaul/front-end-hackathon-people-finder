@@ -1,0 +1,108 @@
+import lizard from "./images/lizard.jpeg";
+
+const mockProfiles = [
+  {
+    id: 1,
+    image: { lizard },
+    name: "Paul Edwards",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Golang", "Java", "JavaScript"],
+    industry: ["healthcare", "FMCG", "technology"],
+  },
+
+  {
+    id: 2,
+    image: { lizard },
+    name: " Edwards",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+
+  {
+    id: 3,
+    image: { lizard },
+    name: "john",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+  {
+    id: 4,
+    image: { lizard },
+    name: "shreeya",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+  {
+    id: 5,
+    image: { lizard },
+    name: "Gazel",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+  {
+    id: 6,
+    image: { lizard },
+    name: "Domic",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+  {
+    id: 7,
+    image: { lizard },
+    name: "Eva",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+  {
+    id: 8,
+    image: { lizard },
+    name: "another name",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+  {
+    id: 9,
+    image: { lizard },
+    name: "Paul Edwards",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+  {
+    id: 10,
+    image: { lizard },
+    name: "Paul Edwards",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+  {
+    id: 11,
+    image: { lizard },
+    name: "Paul Edwards",
+    role: "developer",
+    description: "Back end scala engineer",
+    tech: ["Python", "Java", "JavaScript"],
+    industry: ["healthcare", "science", "technology"],
+  },
+];
+
+
+export default mockProfiles

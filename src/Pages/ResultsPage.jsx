@@ -1,11 +1,11 @@
-import React from "react";
 import Layout from "../Components/Layout/Layout";
-import ProfileCard from "../Components/ProfileCard/ProfileCard";
+import Grid from "../Components/Grid/Grid";
+import mockProfiles from "../../src/Assets/mockProfiles"
 
 const ResultsPage = () => {
   return (
     <Layout>
-      <ProfileCard />
+      <Grid cards={mockProfiles} />
     </Layout>
   );
 };
